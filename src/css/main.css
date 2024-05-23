@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+#first-img{
+    max-width: 100%;
+    object-fit: contain;
+    width: 4096px;
+    z-index: 0;
+}
+
+#grilltext{
+    position: absolute;
+    width: 700px;
+    max-width: 90%;
+    transform: translate(-50%);
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+#header{
+    height: 40px;
+    max-width: 100%;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+
+}
+
+header a{
+    text-decoration: underline;
+    list-style: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+header li{
+display: inline-block;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 8px;
+}
+
+header a:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+header ul{
+
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+#log, #reg{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#submit, #submit2{
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 20px;
+padding: 2px 5px 2px 5px;
+background-color: white;
+border-radius: 5px;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+}
+
+#submit:hover, #submit2:hover{
+background-color: rgb(248, 248, 248);
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+input{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.column{
+    display: inline-block;
+    margin: 15px;
+}
+
+.price, .kr{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.kr{
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 5;
+}
+
+.menu-row{
+    margin-left: 10%;
+    border-width: 0 0 1px 0;
+    border-color: black;
+    border-style: solid;
+    width: 80%;
+}
+
+.update-item {
+    margin-right: 10px;
+}
+
+#page-width{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#logout-btn{
+    position: fixed;
+    right: 15px;
+    top: 10px;
+}
+
+#cart {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(127, 151, 212);
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: black;
+    display: none;
+}
+
+.order-item {
+    display: inline-block;
+}
+
+button:hover {
+    background-color: rgb(158, 177, 203);
+}
